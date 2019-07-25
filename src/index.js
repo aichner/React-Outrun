@@ -8,6 +8,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // App
 import App from "./App"
 
+// Global CSS
+import './style.scss'
+
 // RSW
 import registerServiceWorker from './registerServiceWorker';
 

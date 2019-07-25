@@ -10,7 +10,25 @@ class Intro extends React.Component {
   render() {
     return (
       <Container>
-        <Alert variant="primary">Test</Alert>
+        {[
+  'primary',
+  'secondary',
+  'success',
+  'danger',
+  'space',
+  'hot',
+  'sun',
+  'deep',
+  'crazy',
+  'warning',
+  'info',
+  'light',
+  'dark',
+].map((variant, idx) => (
+  <Alert key={idx} variant={variant}>
+    This is a {variant} alert—check it out!
+  </Alert>
+))}
       </Container>
     );
   }

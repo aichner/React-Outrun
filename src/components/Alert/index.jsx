@@ -1,13 +1,16 @@
 // React
 import React from 'react'
 
+// Original Alert
 import { Alert as BootstrapAlert } from 'react-bootstrap';
+
+// SCSS
+import './alert.scss'
 
 class Alert extends React.Component{
     
     render(){
-        const { variant, children } = this.props;
-        console.log(this.props);
+        const { variant, children, strength } = this.props;
 
         return (
             <BootstrapAlert variant={variant}>{children}</BootstrapAlert>

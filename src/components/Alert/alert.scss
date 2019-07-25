@@ -1,0 +1,71 @@
+/* Alert SCSS by Christian Aichner */
+
+@import "../_variables.scss";
+
+.alert.alert-primary{
+    background: rgba($primary, 0.2);
+    color: $primary;
+    border: 4px darken($primary, 20%) solid;
+}
+.alert.alert-space{
+    background: rgba($space, 0.2);
+    color: $space;
+    border: 4px darken($space, 10%) solid;
+}
+.alert.alert-deep{
+    background: rgba($deep, 0.2);
+    color: lighten($deep, 30%);
+    border: 4px lighten($deep, 10%) solid;
+}
+.alert.alert-secondary{
+    background: rgba($secondary, 0.2);
+    color: $secondary;
+    border: 4px darken($secondary, 20%) solid;
+}
+.alert.alert-danger{
+    background: rgba($danger, 0.2);
+    color: $danger;
+    border: 4px darken($danger, 30%) solid;
+}
+.alert.alert-success{
+    background: rgba($success, 0.2);
+    color: $success;
+    border: 4px darken($success, 30%) solid;
+}
+.alert.alert-hot{
+    background: rgba($hot, 0.2);
+    color: $hot;
+    border: 4px darken($hot, 10%) solid;
+}
+.alert.alert-warning{
+    background: rgba($warning, 0.2);
+    color: $warning;
+    border: 4px darken($warning, 20%) solid;
+}
+.alert.alert-sun{
+    background: rgba($sun, 0.2);
+    color: $sun;
+    border: 4px darken($sun, 10%) solid;
+}
+.alert.alert-info{
+    background: rgba($info, 0.2);
+    color: $info;
+    border: 4px darken($info, 30%) solid;
+}
+.alert.alert-light{
+    background: rgba($light, 0.2);
+    color: $light;
+    border: 4px darken($light, 30%) solid;
+}
+.alert.alert-dark{
+    background: rgba($dark, 0.2);
+    color: $dark;
+    border: 4px darken($dark, 30%) solid;
+}
+.alert.alert-crazy{
+    background: rgba(hotpink, 0.2);
+    color: $danger;
+    border-width: 3px;
+    border-style: solid;
+    border-image: $crazy 0 100%;
+}
