@@ -2,6 +2,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
+// Bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // App
 import App from "./App"
 
