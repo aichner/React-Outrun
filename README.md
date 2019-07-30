@@ -6,7 +6,7 @@
 
 [![Discord][discord-badge]][discord]
 
-![React Outrun Logo](https://www.aichner-christian.com/img/logo/react-outrun-small.png)
+![React Outrun Logo](https://www.aichner-christian.com/img/logo/react-outrun-github.png)
 
 ## Docs
 
