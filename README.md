@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://www.aichner-christian.com/img/logo/react-outrun-github.png" alt="React Outrun Logo" height="200">
+</p>
+
 # React-Outrun
 
 [![npm][npm-badge]][npm] (Normal Bootstrap)
@@ -5,8 +9,6 @@
 [Bootstrap 4][bootstrap] Outrun/Synthwave themed components built with [React][react].
 
 [![Discord][discord-badge]][discord]
-
-![React Outrun Logo](https://www.aichner-christian.com/img/logo/react-outrun-github.png)
 
 ## Docs
 
