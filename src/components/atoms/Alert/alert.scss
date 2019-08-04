@@ -1,6 +1,6 @@
-/* Alert SCSS by Christian Aichner */
+/* Alert SCSS */
 
-@import "../_variables.scss";
+@import "../../../utilities/variables";
 
 .alert.alert-primary{
     background: rgba($primary, 0.2);
@@ -69,3 +69,8 @@
     border-style: solid;
     border-image: $crazy 0 100%;
 }
+
+/** 
+ * SPDX-License-Identifier: (EUPL-1.2)
+ * Copyright © 2019 Werbeagentur Christian Aichner
+ */

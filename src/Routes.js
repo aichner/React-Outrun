@@ -1,10 +1,16 @@
-// React
-import React from 'react'
-// React Router
-import { Route, Switch } from "react-router-dom"
+//> React
+// Contains all the functionality necessary to define React components
+import React from 'react';
+// DOM bindings for React Router
+import { Route, Switch } from 'react-router-dom';
 
-// Pages
-import IntroPage from './pages/intro.jsx'
+//> Components
+/**
+ * IntroPage: This will display what React Outrun can do
+ */
+import {
+  IntroPage
+} from './components/pages';
 
 class Routes extends React.Component {
   render() {
@@ -22,3 +28,8 @@ class Routes extends React.Component {
 }
 
 export default Routes;
+
+/** 
+ * SPDX-License-Identifier: (EUPL-1.2)
+ * Copyright © 2019 Werbeagentur Christian Aichner
+ */
