@@ -1,15 +1,15 @@
-// React
-import React, { Component } from 'react';
-
-// React Router
+//> React
+// Contains all the functionality necessary to define React components
+import React from 'react';
+// DOM bindings for React Router
 import { BrowserRouter as Router } from 'react-router-dom';
 import Routes from './Routes';
 
-// Components
+//> Components
 //import Nav from './components/waves/molecules/Nav';
 //import Footer from './components/waves/molecules/Footer';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <Router>
@@ -24,3 +24,8 @@ class App extends Component {
 }
 
 export default App;
+
+/** 
+ * SPDX-License-Identifier: (EUPL-1.2)
+ * Copyright © 2019 Werbeagentur Christian Aichner
+ */
